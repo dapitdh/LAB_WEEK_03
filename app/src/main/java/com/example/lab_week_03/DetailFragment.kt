@@ -47,8 +47,10 @@ class DetailFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        Log.d(TAG, "onViewCreated")
+        val coffeeId = arguments?.getInt(COFFEE_ID, 0) ?: 0
+        setCoffeeData(coffeeId)
     }
+
     fun setCoffeeData(id: Int){
         when(id){
             R.id.affogato -> {
@@ -66,13 +68,12 @@ class DetailFragment : Fragment() {
         }
     }
     companion object {
-        fun newInstance(param1: String, param2: String) =
+        private const val COFFEE_ID = "COFFEE_ID"
+        fun newInstance(coffeeId: Int) =
             DetailFragment().apply {
                 arguments = Bundle().apply {
-                    putString(ARG_PARAM1, param1)
-                    putString(ARG_PARAM2, param2)
+                    putInt(COFFEE_ID, coffeeId)
                 }
             }
-        private const val TAG = "DetailFragment"
     }
 }

@@ -3,11 +3,11 @@ package com.example.lab_week_03
 import android.content.ContentValues.TAG
 import android.os.Bundle
 import android.util.Log
-import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
+import androidx.fragment.app.Fragment
 
 // TODO: Rename parameter arguments, choose names that match
 // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -64,6 +64,14 @@ class DetailFragment : Fragment() {
             R.id.latte -> {
                 coffeeTitle?.text = getString(R.string.latte_title)
                 coffeeDesc?.text = getString(R.string.latte_desc)
+            }
+            R.id.matcha -> {
+                coffeeTitle?.text = getString(R.string.matcha_title)
+                coffeeDesc?.text = getString(R.string.matcha_desc)
+            }
+            R.id.hazel -> {
+                coffeeTitle?.text = getString(R.string.hazel_title)
+                coffeeDesc?.text = getString(R.string.hazel_desc)
             }
         }
     }

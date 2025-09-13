@@ -1,11 +1,10 @@
 package com.example.lab_week_03
 
-import android.content.Context
 import android.os.Bundle
-import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.fragment.app.Fragment
 import androidx.navigation.Navigation
 
 // TODO: Rename parameter arguments, choose names that match
@@ -36,7 +35,9 @@ class ListFragment : Fragment(){
         val coffeeList = listOf<View>(
             view.findViewById(R.id.affogato),
             view.findViewById(R.id.americano),
-            view.findViewById(R.id.latte)
+            view.findViewById(R.id.latte),
+            view.findViewById(R.id.matcha),
+            view.findViewById(R.id.hazel)
         )
 
         coffeeList.forEach{ coffee ->

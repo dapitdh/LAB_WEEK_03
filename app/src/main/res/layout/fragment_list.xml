@@ -36,5 +36,20 @@
             android:layout_height="wrap_content"
             android:padding="10dp"
             android:text="@string/latte_title"/>
+        <TextView
+            android:id="@+id/matcha"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="@string/matcha_title"/>
+
+        <TextView
+            android:id="@+id/hazel"
+            android:layout_width="match_parent"
+            android:layout_height="392dp"
+            android:padding="10dp"
+            android:text="@string/hazel_title" />
+
+
     </LinearLayout>
 </ScrollView>

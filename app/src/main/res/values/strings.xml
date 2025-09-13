@@ -12,5 +12,17 @@ extraction.)</string>
     <string name="latte_desc">A tall, mild \'milk coffee\' (about 150-300 ml). An
 espresso with steamed milk and only a little milk foam poured over it. Serve in a
 latte glass or a coffee cup. Flavored syrup can be added.</string>
+    <string name="matcha_title">
+        MATCHA LATTE
+    </string>
+    <string name="matcha_desc">
+        Finely ground green tea powder whisked with hot water (30-60 ml) and topped with steamed milk (150-200 ml). Often served in a latte mug or heat-proof glass.
+    </string>
+    <string name="hazel_title">
+        HAZELNUT LATTE
+    </string>
+    <string name="hazel_desc">
+        Espresso combined with steamed milk (150-200 ml) and hazelnut syrup (15-30 ml). Often served in a latte mug.
+    </string>
     <string name="coffee_list">Coffee List</string>
 </resources>
